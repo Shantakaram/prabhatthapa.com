@@ -15,6 +15,8 @@ Me::Application.routes.draw do
 
   get "home/contact_us"
 
+  get "home/featured_sites"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

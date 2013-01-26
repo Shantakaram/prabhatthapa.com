@@ -1,6 +1,8 @@
 <div class="middle_right_frame1">
-  <h1>Hello</h1>
-  <%= @info.about_me %>
+<h1>Featured Sites</h1>
+<% @featured_sites.each do |fs| %>
+	<%= link_to fs.title, fs.url, class: 'visit', target: '_blank' %> <br/>
+<% end %>
 </div>
 <div class="middle_right_frame2">
   <div class="rightimage"></div>

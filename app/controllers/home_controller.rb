@@ -1,8 +1,8 @@
 class HomeController < ApplicationController
   layout 'inside', :except => 'index'
-  
+  before_filter :load_objects
   def index
-    @info = Info.first
+    
   end
 
   def about_us
@@ -11,5 +11,14 @@ class HomeController < ApplicationController
 
   def contact_us
     
+  end
+
+  def featured_sites
+  	@featured_sites = FeaturedSite.all
+  end
+
+  private
+  def load_objects
+  	@info = Info.first
   end
 end
