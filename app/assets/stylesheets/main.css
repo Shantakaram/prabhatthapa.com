@@ -1,0 +1,180 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin:0;
+	padding:0;
+}
+body
+{
+	width:100%;
+	height:100%;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:normal;
+	background: #FFF;
+	font-size:12px;
+	color:#777777;
+}
+
+body div:after
+{
+	content:".";
+	display:block;
+	height:0;
+	visibility:hidden;
+	clear:both;
+}
+
+img
+{
+	border:0px none;
+}
+
+p,h1,h2,h3,ul,hr,body
+{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration:none;
+}
+
+#wrapper
+{
+	width:990px;
+	margin:0 auto;
+}
+.top
+{
+	width:auto;
+}
+.middle
+
+{
+	width:990px;
+}
+.header
+{
+	width:690px;
+	height:111px;
+	background:url(/assets/logo.gif) no-repeat;
+}
+.middle_left
+{
+	width:203px;
+	float:left;
+}
+.middle_left_welcome
+{
+	width:126px;
+	height:348px;
+	background:url(/assets/welcome.gif) no-repeat;
+}
+.menu
+{
+	width:203px;
+	margin-top:15px;
+	
+}
+.menu li
+{
+	width:auto;
+	display:block;
+	font:Arial, Helvetica, sans-serif;
+	font-size:30px;
+	line-height:24px;
+	outline:none;
+	}
+.menu li a
+{
+	color:#a5a5a5;
+	text-decoration:none;
+}
+.menu li a:hover
+{
+	color:#3f3f3f;
+}
+.midle_right
+{
+	width:780px;
+	float:left;
+}
+.middle_right_frame1
+{
+	width:457px;
+	float:left;
+}
+h1
+{
+	font:Arial, Helvetica, sans-serif;
+	font-size:50px;
+	color:#3f3f3f;
+	line-height:normal;
+	margin-top:40px;
+}
+.middle_right_frame1_content
+{
+	width:auto;
+	font:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#606060;
+	line-height:20px;
+	
+}
+.middle_right_frame1_content2
+{
+	width:auto;
+	font:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#606060;
+	line-height:20px;
+	margin-top:20px;
+}
+.middle_right_frame1_icon
+{
+	width:auto;
+	margin-top:50px;
+	
+	
+}
+h2
+{
+	font:Arial, Helvetica, sans-serif;
+	font-size:50px;
+	color:#3f3f3f;
+	line-height:normal;
+	margin-left:205px;
+}
+.icon_facebook
+{
+	width:77px;
+	height:80px;
+	float:right;
+	margin-top:10px;
+}
+.icon_in
+{
+	width:77px;
+	height:80px;
+	float:right;
+	margin-right:10px;
+	margin-top:10px;
+}
+.profilepic
+{
+	width:257px;
+	height:570px;
+	float:left;
+	margin-left:50px;
+}
+.footer
+{
+	width:990px;
+	margin-top:20px;
+}
+.footer_content
+{
+	width:auto;
+	margin-top:8px;
+	font-weight:bold;
+}

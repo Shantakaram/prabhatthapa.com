@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Me</title>
+    <%= stylesheet_link_tag    "application", :media => "all" %>
+    <%= javascript_include_tag "application" %>
+    <%= csrf_meta_tags %>
+  </head>
+  <body>
+
+    <div id="wrapper">
+      <div class="top">
+        <%= render "shared/header" %>
+      </div>
+      <div class="middle">
+        <div class="middle_left">
+          <%= render :partial => "shared/left" %>
+        </div>
+        <div class="midle_right">
+          <%= yield %>
+        </div>
+      </div>
+      <div class="footer">
+        <%= render "shared/footer" %>
+      </div>
+
+    </div>
+  </body>
+</html>
