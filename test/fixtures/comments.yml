@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  blog_id: 1
+  name: MyString
+  email: MyString
+  content: MyText
+  active: false
+
+two:
+  blog_id: 1
+  name: MyString
+  email: MyString
+  content: MyText
+  active: false

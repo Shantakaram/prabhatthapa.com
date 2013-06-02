@@ -1,9 +1,8 @@
 Me::Application.routes.draw do
-  get "blog/index"
 
-  get "blog/view"
-
-  get "blog/comments"
+  resources :blogs do
+    resources :comments
+  end
 
   ActiveAdmin.routes(self)
 
@@ -30,6 +29,7 @@ Me::Application.routes.draw do
 
   # Sample resource route (maps HTTP verbs to controller actions automatically):
   #   resources :products
+  
 
   # Sample resource route with options:
   #   resources :products do

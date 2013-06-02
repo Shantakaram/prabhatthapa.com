@@ -2,7 +2,7 @@
   <h1>Blog</h1>
   <% @blogs.each do |b| %>
     <h3><%= b.title %></h3>
-    <p class="middle_right_frame1_content"><%= b.content.html_safe %></p>
+    <p class="middle_right_frame1_content"><%= b.content[0, 500].html_safe %> . . . <%= link_to 'more', blog_path(b.id) %> </p>
     <p class="middle_right_frame1_content_blog"><b><%= time_ago_in_words(b.created_at) %></b></p>
   <% end %>
 </div>

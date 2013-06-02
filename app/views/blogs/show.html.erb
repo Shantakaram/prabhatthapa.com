@@ -1,0 +1,7 @@
+<div class="middle_right_blog_frame1">
+  <h3><%= @blog.title %></h3>
+  <p class="middle_right_frame1_content"><%= @blog.content.html_safe %></p>
+  <p class="middle_right_frame1_content_blog"><b><%= time_ago_in_words(@blog.created_at) %></b></p>
+
+  <%= render partial: 'comments/form' %>
+</div>
